@@ -23,7 +23,7 @@ type OrderOutPut struct {
 
 type TransactionOutPut struct {
 	TransactionID string  `json: "transaction_id"`
-	BuyerId       string  `json: "buyer_id"`
+	BuyerID       string  `json: "buyer_id"`
 	SellerID      string  `json: "seller_id"`
 	AssetID       string  `json: "asset_id"`
 	Price         float64 `json: "price"`

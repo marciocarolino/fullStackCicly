@@ -6,7 +6,7 @@ type Investor struct {
 	AssetPosition []*InvestorAssetPosition
 }
 
-func NewInvertor(id string) *Investor {
+func NewInvestor(id string) *Investor {
 	return &Investor{
 		ID:            id,
 		AssetPosition: []*InvestorAssetPosition{},
